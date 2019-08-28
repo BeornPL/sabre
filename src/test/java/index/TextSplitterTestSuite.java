@@ -42,4 +42,16 @@ public class TextSplitterTestSuite {
         Assert.assertEquals("abc", result.get(0));
         Assert.assertEquals("cba", result.get(3));
     }
+
+    @Test
+    public void testSplitTextSpecialUpperCaseMixed() {
+        //Given
+        String testedText = "aBc, ab! a cBa..asasc bc cb ABC??";
+        //When
+        List<String> result = TextSplitter.split(testedText);
+        //Then
+        Assert.assertEquals(7, result.size());
+        Assert.assertEquals("abc", result.get(0));
+        Assert.assertEquals("cbaasasc", result.get(3));
+    }
 }

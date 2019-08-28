@@ -163,4 +163,20 @@ public class TextIndexerTestSuite {
 
         IndexDisplayer.displayIndexedMap(testedMap);
     }
+
+    @Test
+    public void testIndexLettersSentenceComplex() {
+        //Given
+        TextIndexer textIndexer = new TextIndexer();
+        String testedText = "ala ma kota, kot kodu!#$@je w Javie Kota";
+        //When
+        Map<Character, List<String>> testedMap = textIndexer.indexLetters(testedText);
+        //Then
+        Assert.assertEquals(13, testedMap.entrySet().size());
+        Assert.assertEquals(4, testedMap.get('a').size());
+        Assert.assertEquals(2, testedMap.get('j').size());
+        Assert.assertEquals(1, testedMap.get('w').size());
+
+        IndexDisplayer.displayIndexedMap(testedMap);
+    }
 }
