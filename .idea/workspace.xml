@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0b2f9ce5-d488-45b6-abe5-a7b694be01e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/index/TextSplitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/index/TextSplitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/index/TextIndexerTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/index/TextIndexerTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/TextIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/TextIndexer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/index/TextSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/TextSplitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/index/TextIndexerTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/index/TextIndexerTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/index/TextIndexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="71">
+              <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -48,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/index/IndexDisplayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -56,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/index/TextSplitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -65,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="918">
               <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
             </state>
           </provider>
@@ -75,16 +76,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/index/IndexDisplayerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/index/TextIndexerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="177" column="58" lean-forward="true" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -106,18 +107,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/index/IndexDisplayer.java" />
         <option value="$PROJECT_DIR$/src/test/java/index/IndexDisplayerTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/index/TextIndexer.java" />
         <option value="$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/index/TextSplitter.java" />
         <option value="$PROJECT_DIR$/src/test/java/index/TextIndexerTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/index/TextSplitter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/index/TextIndexer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,8 +190,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567013518421" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#Tim's/Section # - To Sort/Adventure" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567066027903" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#Tim's/Section # - To Sort/ArrayListChallenge" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -260,8 +260,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TextIndexerTestSuite" />
-        <item itemvalue="JUnit.TextSplitterTestSuite" />
         <item itemvalue="JUnit.IndexDisplayerTestSuite" />
+        <item itemvalue="JUnit.TextSplitterTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -276,26 +276,11 @@
       <option name="presentableId" value="Default" />
       <updated>1566928014677</updated>
       <workItem from="1566928018374" duration="11117000" />
-      <workItem from="1566968742338" duration="7156000" />
+      <workItem from="1566968742338" duration="11045000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 06m 51s.xml">
-      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 16m 07s.xml">
-      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 19m 09s.xml">
-      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 27m 28s.xml">
-      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 27m 56s.xml">
-      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TextSplitterTestSuite - 2019.08.28 at 19h 28m 38s.xml">
       <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -311,9 +296,24 @@
     <history-entry file="TextIndexerTestSuite - 2019.08.28 at 19h 31m 12s.xml">
       <configuration name="TextIndexerTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TextIndexerTestSuite - 2019.08.28 at 19h 31m 52s.xml">
+      <configuration name="TextIndexerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextIndexerTestSuite - 2019.08.28 at 19h 32m 00s.xml">
+      <configuration name="TextIndexerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextIndexerTestSuite - 2019.08.28 at 19h 44m 43s.xml">
+      <configuration name="TextIndexerTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextSplitterTestSuite - 2019.08.29 at 09h 26m 12s.xml">
+      <configuration name="TextSplitterTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TextIndexerTestSuite - 2019.08.29 at 09h 41m 48s.xml">
+      <configuration name="TextIndexerTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18273000" />
+    <option name="totallyTimeSpent" value="22162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -328,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31852654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,27 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/index/IndexDisplayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/index/TextIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -428,22 +407,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/index/TextSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/index/IndexDisplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/index/IndexDisplayerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/index/TextSplitterTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/index/TextIndexerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="177" column="58" lean-forward="true" selection-start-line="177" selection-start-column="58" selection-end-line="177" selection-end-column="58" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/index/TextIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
         </state>
       </provider>
     </entry>

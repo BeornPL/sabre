@@ -1,18 +1,17 @@
 package index;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class TextSplitter {
 
     public static List<String> split(String text) {
-        List<String> words = new ArrayList<>();
-        text = text.toLowerCase();
-        text = text.replaceAll("[^\\w\\s]","");
-        String[] wordsArray = text.split(" ");
-        for(int i = 0; i<wordsArray.length; i++) {
-            words.add(wordsArray[i]);
-        }
-        return words;
+        String[] wordsArray = convertToLoweCaseLettersOnly(text).split(" ");
+        return new ArrayList<>(Arrays.asList(wordsArray));
+    }
+
+    private static String convertToLoweCaseLettersOnly(String text) {
+        return text.toLowerCase().replaceAll("[^\\w\\s]","");
     }
 }
