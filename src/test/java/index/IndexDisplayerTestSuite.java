@@ -13,6 +13,8 @@ public class IndexDisplayerTestSuite {
     public void testDisplay() {
         //Given
         Map<Character, List<String>> testedMap = new TreeMap<>();
+        IndexDisplayer indexDisplayer = new IndexDisplayer();
+
         List<String> arrayList1 = new ArrayList<>();
         List<String> arrayList2 = new ArrayList<>();
         List<String> arrayList3 = new ArrayList<>();
@@ -31,7 +33,7 @@ public class IndexDisplayerTestSuite {
         testedMap.put('a',arrayList1);
         testedMap.put('v',arrayList2);
         testedMap.put('#',arrayList3);
-        IndexDisplayer.displayIndexedMap(testedMap);
+        indexDisplayer.displayIndexedMap(testedMap);
         //Then
 
     }

@@ -3,9 +3,10 @@ package index;
 import java.util.*;
 
 public class TextIndexer {
-    public static Map<Character, List<String>> indexLetters(String text) {
+    public Map<Character, List<String>> indexLetters(String text) {
 
-        List<String> words = TextSplitter.split(text);
+        TextSplitter textSplitter = new TextSplitter();
+        List<String> words = textSplitter.split(text);
         Map<Character, List<String>> indexMap = new TreeMap<>();
 
         for (int i = 97; i <= 122; i++) {
@@ -17,7 +18,7 @@ public class TextIndexer {
         return indexMap;
     }
 
-    private static List<String> searchForWordsContainingCharacterAndSort (List<String> listOfWords, Character character) {
+    private List<String> searchForWordsContainingCharacterAndSort (List<String> listOfWords, Character character) {
         List<String> listOfWordsContainingCharacter = new ArrayList<>();
         for (String word : listOfWords) {
             if (checkIfWordContainsCharacter(word, character)) {
@@ -28,12 +29,12 @@ public class TextIndexer {
         return listOfWordsContainingCharacter;
     }
 
-    private static void addToListIfContainsNot(List<String> list, String word) {
+    private void addToListIfContainsNot(List<String> list, String word) {
         if (!list.contains(word))
             list.add(word);
     }
 
-    private static boolean checkIfWordContainsCharacter(String word, Character character) {
+    private boolean checkIfWordContainsCharacter(String word, Character character) {
         if (word.indexOf(character) >= 0) {
             return true;
         }

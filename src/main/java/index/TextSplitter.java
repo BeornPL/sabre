@@ -6,12 +6,12 @@ import java.util.List;
 
 public class TextSplitter {
 
-    public static List<String> split(String text) {
+    public List<String> split(String text) {
         String[] wordsArray = convertToLowerCaseLettersOnly(text).split(" ");
         return new ArrayList<>(Arrays.asList(wordsArray));
     }
 
-    private static String convertToLowerCaseLettersOnly(String text) {
+    private String convertToLowerCaseLettersOnly(String text) {
         return text.toLowerCase().replaceAll("[^\\w\\s]","");
     }
 }

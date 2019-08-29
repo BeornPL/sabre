@@ -10,9 +10,10 @@ public class TextSplitterTestSuite {
     @Test
     public void testSplitTextSimpleLowerCase() {
         //Given
+        TextSplitter textSplitter = new TextSplitter();
         String testedText = "abc ab a cba bc cb";
         //When
-        List<String> result = TextSplitter.split(testedText);
+        List<String> result = textSplitter.split(testedText);
         //Then
         Assert.assertEquals(6, result.size());
         Assert.assertEquals("abc", result.get(0));
@@ -22,9 +23,10 @@ public class TextSplitterTestSuite {
     @Test
     public void testSplitTextSimpleUpperCase() {
         //Given
+        TextSplitter textSplitter = new TextSplitter();
         String testedText = "aBc ab a cBa bc cb ABC";
         //When
-        List<String> result = TextSplitter.split(testedText);
+        List<String> result = textSplitter.split(testedText);
         //Then
         Assert.assertEquals(7, result.size());
         Assert.assertEquals("abc", result.get(0));
@@ -34,9 +36,10 @@ public class TextSplitterTestSuite {
     @Test
     public void testSplitTextSpecialUpperCase() {
         //Given
+        TextSplitter textSplitter = new TextSplitter();
         String testedText = "aBc, ab! a cBa.. bc cb ABC??";
         //When
-        List<String> result = TextSplitter.split(testedText);
+        List<String> result = textSplitter.split(testedText);
         //Then
         Assert.assertEquals(7, result.size());
         Assert.assertEquals("abc", result.get(0));
@@ -46,9 +49,10 @@ public class TextSplitterTestSuite {
     @Test
     public void testSplitTextSpecialUpperCaseMixed() {
         //Given
+        TextSplitter textSplitter = new TextSplitter();
         String testedText = "aBc, ab! a cBa..asasc bc cb ABC??";
         //When
-        List<String> result = TextSplitter.split(testedText);
+        List<String> result = textSplitter.split(testedText);
         //Then
         Assert.assertEquals(7, result.size());
         Assert.assertEquals("abc", result.get(0));
